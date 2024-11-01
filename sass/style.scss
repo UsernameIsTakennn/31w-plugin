@@ -12,13 +12,24 @@ Text Domain: theme-31w
 */
 
 @import "variables/couleurs";
+/***************************************************
+Normalize
+***************************************************/
 @import "normalize/normalize";
+
+/***************************************************
+Layout
+***************************************************/
+@import "layout/page";
+
+/***************************************************
+Composant
+***************************************************/
+@import "composants/bloc";
+@import "composants/entete";
+@import "composants/logo";
+@import "composants/navigation";
+@import "composants/recherche";
 
 /*_ --------------------------------------------- base _*/
 @import "base/heading";
-@import "base/espacement";
-@import "base/lien";
-@import "base/list";
-
-/*_ --------------------------------------------- composant _*/
-@import "composant/entete";

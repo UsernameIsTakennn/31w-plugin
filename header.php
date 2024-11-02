@@ -25,10 +25,8 @@
             </div>
 
             <div class="entete__nav">
-                <form class="recherche">
-                    <input type="search" class="recherche__input">
-                    <img src="https://s2.svgbox.net/hero-outline.svg?ic=search&color=000" width="25" height="25">
-                </form>
+
+                <?php get_search_form() ?>
 
                 <?php wp_nav_menu(
                     array(

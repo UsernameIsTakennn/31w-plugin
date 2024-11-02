@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
 Theme Name: Theme-31w
 Theme URI: https://referenced.ca
@@ -454,13 +453,11 @@ Composant
   display: flex;
   gap: 5px;
 }
-
 .menu .menu-item {
   list-style-type: none;
   padding: 5px;
   display: inline;
 }
-
 .menu .menu-item a {
   display: block;
   background-color: var(--background-article);
@@ -471,8 +468,7 @@ Composant
   box-shadow: 5px 5px 5px #d3b82c;
   transition-duration: 500ms;
 }
-
-.menu-item>a:hover {
+.menu .menu-item a:hover {
   background-color: var(--background-article-hover);
   box-shadow: 5px 5px 5px #d39e2c;
 }
@@ -541,6 +537,4 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

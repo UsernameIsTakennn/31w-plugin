@@ -23,9 +23,9 @@
                     <article class="principal__article">
                         <h5><?php echo $sigle ?></h5>
                         <h5><?php echo $titre ?></h5>
-                        <p><?php echo wp_trim_words(get_the_excerpt(), 50, "suite ..."); ?></p>
+                        <p><?php echo wp_trim_words(get_the_excerpt(), 10, "suite ..."); ?></p>
                         <h5>Durée: <?php echo $duree ?></h5>
-                        <h2>Commentaire: <?php the_field('commentaire'); ?></h2>
+                        <p>Enseignant: <?php the_field('commentaire'); ?></p>
                     </article>
                 <?php endwhile; ?>
         </div>

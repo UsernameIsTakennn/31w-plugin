@@ -1,3 +1,22 @@
+:root{
+    --couleur1: #d3b82c;
+    --couleur2: #EBCE34;
+    --couleur3: #d39e2c;
+    --couleur4: #EBC182;
+    --couleur5: rgba(255, 255, 255, 0.05);
+    --couleur6: #EBA134;
+    --couleur7: #EB8334;
+    --couleur8: #EB6334;
+}
+
+html, body{
+    margin : 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 .global {
     max-width: 1100px;
     margin: 0 auto;
@@ -8,19 +27,13 @@
 }
 
 // HEADER
-.entete {
-    background-image: linear-gradient(var(--background-entete), var(--background-principal));
-}
+@include regle_couleur_back(".entete", $couleur6);
 
 // INDEX
-.principal {
-    background-image: linear-gradient(var(--background-principal), var(--background-pied));
-}
+@include regle_couleur_back(".principal", $couleur7);
 
 // FOOTER
-.pied {
-    background-color: var(--background-pied);
-}
+@include regle_couleur_back(".pied", $couleur8);
 
 .pied {
     .global {

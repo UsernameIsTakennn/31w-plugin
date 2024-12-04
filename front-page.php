@@ -15,7 +15,7 @@
                         $chaine = get_the_title();
                         $sigle = substr($chaine, 0, 7);
                         $titre = substr($chaine, 8, strrpos($chaine, "(") - 8);
-                        $heure = substr($chaine, strrpos($chaine, "("))
+                        $heure = substr($chaine, strrpos($chaine, "("));
                         ?>
                         <article class="principal__article">
                             <h5><?php echo $sigle; ?></h5>

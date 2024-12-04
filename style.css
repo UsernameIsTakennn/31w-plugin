@@ -11,15 +11,15 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: theme-31w
 */
+/***************************************************
+Variables et mixin
+***************************************************/
 :root {
   --border-article: #d3b82c;
   --background-article: #EBCE34;
   --border-article-hover: #d39e2c;
   --background-article-hover: #EBC182;
   --background-global: rgba(255, 255, 255, 0.05);
-  --background-entete: #EBA134;
-  --background-principal: #EB8334;
-  --background-pied: #EB6334;
 }
 
 /***************************************************
@@ -367,6 +367,25 @@ template {
 /***************************************************
 Layout
 ***************************************************/
+:root {
+  --couleur1: #d3b82c;
+  --couleur2: #EBCE34;
+  --couleur3: #d39e2c;
+  --couleur4: #EBC182;
+  --couleur5: rgba(255, 255, 255, 0.05);
+  --couleur6: #EBA134;
+  --couleur7: #EB8334;
+  --couleur8: #EB6334;
+}
+
+html, body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .global {
   max-width: 1100px;
   margin: 0 auto;
@@ -377,15 +396,15 @@ Layout
 }
 
 .entete {
-  background-image: linear-gradient(var(--background-entete), var(--background-principal));
+  background-color: linear-gradient(top, --couleur6, --couleur7);
 }
 
 .principal {
-  background-image: linear-gradient(var(--background-principal), var(--background-pied));
+  background-color: linear-gradient(top, --couleur7, --couleur8);
 }
 
 .pied {
-  background-color: var(--background-pied);
+  background-color: var(--couleur8);
 }
 
 .pied .global {
@@ -494,6 +513,11 @@ Composant
 /*_ --------------------------------------------- base _*/
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
+}
+
+.entete__titre h1 a {
+  color: var(--couleur2);
+  background-color: var(--couleur7);
 }
 
 h2 {

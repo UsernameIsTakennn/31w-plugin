@@ -25,6 +25,7 @@
                         <h5><?php echo $titre ?></h5>
                         <p><?php echo wp_trim_words(get_the_excerpt(), 50, "suite ..."); ?></p>
                         <h5>Durée: <?php echo $duree ?></h5>
+                        <h2>Commentaire: <?php the_field('commentaire'); ?></h2>
                     </article>
                 <?php endwhile; ?>
         </div>

@@ -5,12 +5,12 @@
 - Vous aider à réaliser votre propre thème
 - Documenter les concepts de base
 - Ajouter les références qui ont permis de solutionner certains problèmes
+- Ajouter un plugin
 
 
-## Exercice-1
+## tp1
 
-### objectif : Réaliser un thème de base
+### objectif : Réaliser un thème de voyage
 - Auteur : Splenderly Jean Louis
 - Titre : 31W
 - Description : Structure d'un thème 31w
-- Adresse whc : https://gftnth00.mywhc.ca/31w06/

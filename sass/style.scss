@@ -3,9 +3,11 @@
     top: 25vh;
     left: 25vw;
     transform: scale(0);
+    transition: transform .5s;
     background-color: aquamarine;
     width: 50vw;
     height: 50vh;
+    z-index: 9;
 }
 
 .carrousel__X{

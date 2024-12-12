@@ -31,7 +31,7 @@ function enfile_css_script(){
     );
 }
 
-add_action("wp_enqueue_script", "enfile_css_script");
+add_action("wp_enqueue_scripts", "enfile_css_script");
 
 function genere_carrousel()
 {

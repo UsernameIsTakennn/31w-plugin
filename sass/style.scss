@@ -1,3 +1,19 @@
 .carrousel{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    transform: scale(0);
     background-color: aquamarine;
+    width: 50vw;
+    height: 50vh;
+}
+
+.carrousel__X{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.carrousel--ouvrir{
+    transform: scale(1);
 }

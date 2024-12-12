@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /*
 Theme Name: Theme-31w
@@ -582,4 +583,26 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+=======
+.carrousel {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  transform: scale(0);
+  transition: transform 0.5s;
+  background-color: aquamarine;
+  width: 50vw;
+  height: 50vh;
+  z-index: 9;
+}
+
+.carrousel__X {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.carrousel--ouvrir {
+  transform: scale(1);
+>>>>>>> carrousel/tp1
 }/*# sourceMappingURL=style.css.map */
